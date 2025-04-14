@@ -1,0 +1,41 @@
+Company Name,CGPA,12th,10th,Skills,job_fit_label
+Google,8.6,96,91,"PHP, Mobile App Development, SQLite, Laravel, Agile",1
+Microsoft,7.2,63,68,"PostgreSQL, Spring Boot, REST APIs",0
+Amazon,9.4,92,97,"Python, MySQL, Flask, NLP",1
+Apple,7.5,74,82,"Mobile App Development, SQLite",0
+Facebook,9.6,82,88,"AWS, Spring Boot, Angular, PostgreSQL, REST APIs, Java",1
+Tesla,6.8,60,69,"Entity Framework, CI/CD, Azure",0
+Netflix,9.3,80,95,"Distributed Systems, Docker, Go, Kubernetes",1
+IBM,7.6,75,68,"Tableau, Data Visualization, R, Statistical Analysis",0
+Intel,7.3,74,83,"Kubernetes, Cloud Computing, Distributed Systems",0
+Oracle,9.3,89,93,"Flask, Python, Deep Learning, NLP, Vue.js",1
+Adobe,7.6,76,78,"Vue.js, Flask, Python",0
+Salesforce,8.3,87,90,"Cocoa Touch, Objective-C, Swift, SwiftUI, Firebase, iOS Development",1
+SAP,8.0,80,85,"Cocoa Touch, Objective-C, Firebase, iOS Development, SwiftUI, Swift",1
+Uber,8.3,96,85,"Python, Git, Django, SQL, Machine Learning",1
+Twitter,8.8,89,87,"Objective-C, iOS Development, Firebase, Cocoa Touch, Swift, SwiftUI",1
+LinkedIn,6.7,65,75,"Git, Python, Django, Machine Learning",0
+Spotify,9.1,94,91,"SQLite, PHP, Laravel, React Native",1
+Airbnb,8.4,85,87,"SQLite, Agile, Mobile App Development, React Native, Laravel, PHP",1
+Zoom,7.2,78,71,"RTOS, Embedded Systems",0
+Nvidia,9.0,88,93,"AWS, Microservices, PostgreSQL, Angular, REST APIs",1
+Cisco,8.6,95,96,"Git, React, Data Analysis, SQL, Machine Learning",1
+PayPal,9.0,83,87,"Tableau, R, Statistical Analysis, Business Intelligence, Power BI, Data Visualization",1
+SpaceX,9.6,85,85,"Python, Data Analysis, Git, React",1
+OpenAI,8.9,91,87,"Spring Boot, Java, REST APIs, AWS, Angular",1
+Dell,8.8,87,89,"R, Business Intelligence, Data Visualization, Power BI, Tableau, Statistical Analysis",1
+HP,8.4,95,90,"Cloud Computing, Kubernetes, gRPC, Distributed Systems",1
+Sony,6.3,75,76,"Docker, gRPC",0
+Samsung,9.2,87,98,"RTOS, C++, Linux, Qt, OpenGL, Embedded Systems",1
+Qualcomm,8.6,87,97,"Linux, OpenGL, Embedded Systems, C++, Qt, RTOS",1
+Red Hat,9.4,85,87,"MySQL, Vue.js, Flask, Deep Learning, NLP, Python",1
+Dropbox,8.4,84,97,"RTOS, Qt, Embedded Systems, C++",1
+GitHub,6.0,64,75,"SwiftUI, iOS Development, Swift, Objective-C",0
+Siemens,7.6,79,78,"Git, Machine Learning, Django, Data Analysis",0
+Huawei,8.6,80,90,"Statistical Analysis, Data Visualization, R, Tableau",1
+Nokia,9.3,87,87,"Linux, Qt, C++, RTOS",1
+Epic Games,8.4,80,85,"C#, .NET, Entity Framework, CI/CD, ASP.NET, DevOps",1
+Stripe,6.3,76,76,"R, Tableau",0
+Square,6.2,72,77,"Vue.js, Deep Learning, NLP",0
+Atlassian,9.6,85,95,"Power BI, Tableau, Statistical Analysis, Data Visualization, R",1
+Waymo,9.6,95,87,"Data Analysis, Machine Learning, Git, Python",1
