@@ -1,0 +1,135 @@
+.company-page {
+    /* padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-y: hidden; */
+    height: 100vh;
+    padding-bottom: 10px;
+
+}
+
+.company-card {
+    width: 180px;
+    height: 180px; 
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: white;
+    padding: 10px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 10px;
+}
+
+/* Hover Effect */
+.company-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Selected Card Styling */
+.company-card.selected {
+    border: 2px solid #6a0dad;
+    box-shadow: 0 10px 25px rgba(106, 13, 173, 0.3);
+}
+
+/* Title Styling */
+.company-title {
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Subtitle Styling */
+.company-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+/* .company-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 10px;
+} */
+
+
+.company-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between cards */
+    padding: 20px;
+    margin-bottom: 30px; /* Space between grid and button */
+}
+
+
+/* Company Logo */
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+/* Company Name */
+.company-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Company Role */
+.company-role {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Analyze Button */
+.analyze-button {
+    margin-top: 50px; /* Increase margin */
+    padding:  20px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    color: white;
+    background: linear-gradient(135deg, #8e44ad, #6a0dad);
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Disabled Button */
+.analyze-button.disabled-button {
+    background: #999;
+    cursor: not-allowed;
+}
+
+/* Hover Effect */
+.analyze-button:not(.disabled-button):hover {
+    background: linear-gradient(135deg, #6a0dad, #8e44ad);
+    transform: scale(1.05);
+}
