@@ -110,7 +110,7 @@ const UploadResume = () => {
     formData.append("file", selectedFile);
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/upload", formData, {
+      const response = await axios.post("https://resume-insight-e8tl.onrender.com/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 

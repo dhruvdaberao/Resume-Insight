@@ -16,7 +16,7 @@ const AnalyzerPage = () => {
         const fetchResults = async () => {
             if (!company) return;
             try {
-                const response = await fetch("http://localhost:5000/get_company_scores", {
+                const response = await fetch("https://resume-insight-e8tl.onrender.com/get_company_scores", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ company })
