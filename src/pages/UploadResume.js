@@ -1,77 +1,5 @@
 
 
-// import React, { useState } from "react";
-// import axios from "axios";
-// import { useNavigate } from "react-router-dom";
-// import "../styles/UploadResume.css";
-
-// const UploadResume = () => {
-//   const [selectedFile, setSelectedFile] = useState(null);
-//   const [message, setMessage] = useState("");
-//   const [fileUploaded, setFileUploaded] = useState(false);
-//   const navigate = useNavigate();
-
-//   const handleFileChange = (event) => {
-//     setSelectedFile(event.target.files[0]);
-//   };
-
-//   const handleUpload = async () => {
-//     if (!selectedFile) {
-//       setMessage("Please select a file.");
-//       return;
-//     }
-
-//     if (selectedFile.type !== "application/pdf") {
-//       setMessage("Only PDF files are supported.");
-//       return;
-//     }
-
-//     console.log("Uploading file:", selectedFile.name, "Type:", selectedFile.type);
-
-//     const formData = new FormData();
-//     formData.append("resume", selectedFile);
-
-//     try {
-//       const response = await axios.post("http://localhost:5000/upload", formData, {
-//         headers: { "Content-Type": "multipart/form-data" },
-//       });
-
-//       if (response.data.error) {
-//         setMessage(response.data.error);
-//       } else {
-//         setMessage("File uploaded successfully!");
-//         setFileUploaded(true);
-//       }
-//     } catch (error) {
-//       console.error("Error:", error);
-//       setMessage("Server error: " + (error.response?.data?.error || "Upload failed."));
-//     }
-//   };
-
-//   return (
-//     <div className="upload-page">
-//       <h2 className="title">Upload Your Resume</h2>
-//       <p className="subtitle">Only PDF format is supported.</p>
-//       <div className="upload-controls">
-//         <input type="file" onChange={handleFileChange} className="file-input" />
-//         <button onClick={handleUpload} className="upload-button">Upload</button>
-//       </div>
-//       <p className="message">{message}</p>
-
-//       {fileUploaded && (
-//         <button onClick={() => navigate("/companyPage")} className="navigate-button">
-//           Go to Company Page
-//         </button>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default UploadResume;
-
-
-
-
 
 
 import React, { useState, useCallback } from "react";
@@ -141,7 +69,7 @@ const UploadResume = () => {
       <p className="message">{message}</p>
       {fileUploaded && (
         <button onClick={() => navigate("/companyPage")} className="navigate-button">
-          Go to Company Page
+          Click here to select a company
         </button>
       )}
     </div>

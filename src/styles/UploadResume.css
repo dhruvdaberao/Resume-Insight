@@ -30,7 +30,7 @@ body {
 
 .upload-button {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #047168;
   color: white;
   border: none;
   border-radius: 5px;
@@ -40,14 +40,14 @@ body {
 }
 
 .upload-button:hover {
-  background-color: #0056b3;
+  background-color: #05b0a2 !important;
 }
 
 .message {
   margin-top: 15px;
   font-size: 1.5rem;
   font-weight: bold;
-  color: green;
+  color: #047168 !important;
 }
 
 .text-container {
@@ -75,7 +75,7 @@ body {
 }
 
 .navigate-button {
-  background-color: #4CAF50;
+  background-color: #047168;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -91,7 +91,7 @@ body {
 }
 
 .navigate-button:hover {
-  background-color: #45a049;
+  background-color: #05b0a2;
   transform: translateY(-2px);
 }
 

@@ -39,8 +39,8 @@
 
 /* Selected Card Styling */
 .company-card.selected {
-    border: 2px solid #6a0dad;
-    box-shadow: 0 10px 25px rgba(106, 13, 173, 0.3);
+    border: 2px solid #047168;
+    box-shadow: 0 10px 25px #047168;
 }
 
 /* Title Styling */
@@ -115,10 +115,13 @@
     border-radius: 8px;
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
     color: white;
-    background: linear-gradient(135deg, #8e44ad, #6a0dad);
+    font-weight: bold !important;
+    background: linear-gradient(135deg,#047168, #047168);
     display: block;
     border: none;
     cursor: pointer;
+    padding: 15px !important;
+    margin-bottom: 25px !important;
 }
 
 
@@ -130,6 +133,6 @@
 
 /* Hover Effect */
 .analyze-button:not(.disabled-button):hover {
-    background: linear-gradient(135deg, #6a0dad, #8e44ad);
+    background: linear-gradient(135deg, #05b0a2, #05b0a2);
     transform: scale(1.05);
 }
