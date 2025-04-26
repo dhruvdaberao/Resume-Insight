@@ -57,22 +57,7 @@ const UploadResume = () => {
   };
 
   return (
-    // <div className="upload-page">
-    //   <h2 className="title">Upload Your Resume</h2>
-    //   <p className="subtitle">Only PDF format is supported.</p>
-    //   <div className="upload-controls">
-    //     <input type="file" accept=".pdf" onChange={handleFileChange} className="file-input" />
-    //     <button onClick={handleUpload} className="upload-button" disabled={loading || !selectedFile}>
-    //       {loading ? "Uploading..." : "Upload"}
-    //     </button>
-    //   </div>
-    //   <p className="message">{message}</p>
-    //   {fileUploaded && (
-    //     <button onClick={() => navigate("/companyPage")} className="navigate-button">
-    //       Click here to select a company
-    //     </button>
-    //   )}
-    // </div>
+ 
 <div className="upload-page">
 
 {/* Top Heading Section */}
