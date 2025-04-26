@@ -116,7 +116,7 @@ const AnalyzerPage = () => {
   return (
     <div className="analyzer-page">
       <Typography variant="h3" className="page-heading">
-        🚀 Resume Analyzer Results
+        Analysis Results
       </Typography>
       <Typography variant="h6" className="page-subheading">
         Tailored analysis and suggestions for your selected company
