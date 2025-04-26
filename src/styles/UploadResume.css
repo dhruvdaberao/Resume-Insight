@@ -141,9 +141,9 @@ body {
 .info-card {
   background-color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 20px;  /* Reduced padding to make it more compact */
+  padding: 30px;  /* Reduced padding to make it more compact */
   border-radius: 15px;
-  width: 45%;
+  /* width: 45%; */
   max-width: 500px;
   text-align: left;
   transition: transform 0.5s ease, opacity 0.5s ease;
@@ -211,5 +211,112 @@ body {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+
+
+
+/* === Responsive for Upload Page === */
+@media (max-width: 1024px) {
+  .upload-page {
+    padding: 20px;
+  }
+  
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.6rem;
+  }
+
+  .site-info {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .upload-controls {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .file-input,
+  .upload-button {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .text-container {
+    padding: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.3rem;
+  }
+
+  .site-info {
+    font-size: 1rem;
+  }
+
+  .upload-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .text-container {
+    padding: 15px;
+  }
+}
+
+
+/* === Responsive Fix for Upload Page Cards === */
+@media (max-width: 1024px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .info-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .card-heading {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .card-list {
+    font-size: 1.2rem;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .info-card {
+    padding: 15px;
+  }
+
+  .card-heading {
+    font-size: 1.6rem;
+  }
+
+  .card-list li {
+    font-size: 1rem;
   }
 }

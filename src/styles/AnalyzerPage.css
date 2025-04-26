@@ -150,3 +150,58 @@
   
 
   
+
+
+
+
+
+
+  /* === Responsive for Analyzer Page === */
+@media (max-width: 1024px) {
+    .analyzer-page {
+      padding: 20px;
+    }
+  
+    .analyzer-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .analyzer-results,
+    .analyzer-graphs {
+      width: 100%;
+      max-width: 600px;
+    }
+  
+    .main-heading {
+      font-size: 2.8rem;
+      text-align: center;
+    }
+  
+    .result-text {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main-heading {
+      font-size: 2.2rem;
+    }
+  
+    .sub-heading {
+      font-size: 1.5rem;
+    }
+  
+    .result-text {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    .analyzer-graphs {
+      padding: 10px;
+    }
+  }
+  
+  
