@@ -1,0 +1,234 @@
+.analyzer-page {
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .page-heading {
+     margin-bottom: 15px;
+    font-size: 2.8rem;
+    font-weight: 700 !important;
+    color: #222;
+  }
+  
+  .page-subheading {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .results-container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .score-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .score-bar-container {
+    /* position: relative;
+    width: 80%;
+    margin: auto; */
+
+    width: 100%;
+    background-color: #eee;
+    border-radius: 33.3px;
+    overflow: hidden;
+    height: 55px; /* adjust height if needed */
+    position: relative;
+  }
+  
+  .score-bar-background {
+    background-color:  #89dfd7;
+    height: 55px;
+    border-radius: 33.3px;
+    width: 100%;
+  }
+  
+  .score-bar {
+    
+    height: 100%;
+    background-color: #047168;
+    width: 80%; /* Example width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* text color */
+    font-weight: bold;
+    font-size: 1rem;
+    white-space: nowrap; /* Prevent text wrapping */
+    transition: width 0.5s ease;
+    border-radius: 33.3px; /* Optional: Make it look rounded on the edges */
+  }
+  
+  .score-text {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+  
+  .competing-companies {
+    margin-top: 50px;
+  }
+  
+  .company-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .company-score {
+    text-align: center;
+    max-width: 150px;
+  }
+  
+  .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .company-logo {
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .score-mini-circle {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #047168;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .suggestions-container {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .suggestions-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .suggestions-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .back-button {
+    margin-top: 40px;
+    background-color: #047168 !important;
+    color:  #ffffff !important;
+    font-weight: bold !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.3rem !important;
+  }
+  
+  
+  .suggestions-container {
+    margin-top: 40px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .suggestions-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-block;
+    text-align: left; /* So that bullet points inside stay left-aligned */
+  }
+  
+
+  
+
+
+
+
+
+
+  /* === Responsive for Analyzer Page === */
+
+
+
+@media (max-width: 1024px) {
+    .analyzer-page {
+      padding: 20px;
+    }
+  
+    .analyzer-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .analyzer-results,
+    .analyzer-graphs {
+      width: 100%;
+      max-width: 600px;
+    }
+  
+    .main-heading {
+      font-size: 2.8rem;
+      text-align: center;
+    }
+  
+    .result-text {
+      font-size: 1.2rem;
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main-heading {
+      font-size: 2.2rem;
+    }
+  
+    .sub-heading {
+      font-size: 1.5rem;
+    }
+
+  
+    .result-text {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    .analyzer-graphs {
+      padding: 10px;
+    }
+
+    
+  }
+  @media (max-width: 600px) {
+    .score-bar {
+      font-size: 0.7rem; /* smaller text on mobile */
+      padding: 0 4px;
+    }
+  }
+  
