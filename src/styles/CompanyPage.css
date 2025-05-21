@@ -1,0 +1,190 @@
+.company-page {
+    /* padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-y: hidden; */
+    height: 100vh;
+    padding-bottom: 10px;
+
+}
+
+.company-card {
+    width: 180px;
+    height: 180px; 
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 43px !important;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: white;
+    padding: 10px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 10px;
+}
+
+/* Hover Effect */
+.company-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Selected Card Styling */
+.company-card.selected {
+    border: 2px solid #047168;
+    box-shadow: 0 10px 25px #047168;
+}
+
+/* Title Styling */
+.company-title {
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #222;
+}
+
+/* Subtitle Styling */
+.company-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout */
+/* .company-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 10px;
+} */
+
+
+.company-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust spacing between cards */
+    padding: 20px;
+    margin-bottom: 30px; /* Space between grid and button */
+}
+
+
+/* Company Logo */
+.company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+/* Company Name */
+.company-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Company Role */
+.company-role {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Analyze Button */
+.analyze-button {
+    font-weight: bold !important;
+    margin-top: 50px; /* Increase margin */
+    padding:  20px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 1.3rem !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    color: white;
+    font-weight: bold !important;
+    background: linear-gradient(135deg,#047168, #047168);
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 15px !important;
+    margin-bottom: 25px !important;
+}
+
+
+/* Disabled Button */
+.analyze-button.disabled-button {
+    background: #999;
+    cursor: not-allowed;
+}
+
+/* Hover Effect */
+.analyze-button:not(.disabled-button):hover {
+    background: linear-gradient(135deg, #05b0a2, #05b0a2);
+    transform: scale(1.05);
+}
+
+
+
+
+/* === Responsive for Company Page === */
+@media (max-width: 1024px) {
+    .company-page {
+      padding: 20px;
+    }
+  
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .info-card {
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    .card-heading {
+      font-size: 2rem;
+      text-align: left;
+    }
+  
+    .card-list {
+      font-size: 1.2rem;
+      padding-left: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main-heading {
+      font-size: 2.3rem;
+      text-align: center;
+    }
+  
+    .info-card {
+      padding: 20px;
+    }
+  
+    .card-heading {
+      font-size: 1.5rem;
+    }
+  
+    .card-list li {
+      font-size: 1rem;
+    }
+  }
+  
