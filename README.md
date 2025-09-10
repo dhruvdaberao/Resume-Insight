@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with ResumeInsight
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was bootstrapped with [esumeInsight](https://github.com/dhruvdaberao/ResumeInsight).
 
 ## Available Scripts
 
