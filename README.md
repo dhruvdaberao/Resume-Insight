@@ -1,7 +1,7 @@
 # Getting Started with ResumeInsight
 
 
-This project was bootstrapped with [esumeInsight](https://github.com/dhruvdaberao/ResumeInsight).
+This project was bootstrapped with [ResumeInsight](https://github.com/dhruvdaberao/ResumeInsight).
 
 ## Available Scripts
 
